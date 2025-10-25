@@ -45,18 +45,29 @@ The app allows users to add, filter, and delete expense, and stores all data loc
 ## Project Structure
 
 ts-expense-tracker/
+│
 ├── src/
-│ ├── main.ts # Handles DOM logic, event listeners, rendering, and filters
-│ ├── storage.ts # Local storage read/write utilities
-│ └── types.ts # TypeScript interfaces and shared type definitions
+│ ├── main.ts
+│ ├── storage.ts
+│ └── types.ts
 │
 ├── build/
-│ └── js/ # Compiled JavaScript output (from tsc)
+│ └── js/
+│ ├── main.js
+│ ├── storage.js
+│ └── types.js
 │
-├── index.html # App entry point
-├── styles.css # Main stylesheet
-├── tsconfig.json # TypeScript compiler configuration
-└── README.md # Project documentation
+├── images/
+│ ├── main-ui.png
+│ ├── expenses-table-populated.png
+│ └── filtered-expenses.png
+│
+├── index.html
+├── styles.css
+├── tsconfig.json
+├── README.md
+├── .gitignore
+└── .gitattributes
 
 ---
 
@@ -81,14 +92,17 @@ Open `index.html` in your browser or launch with Live Server in VS Code.
 
 ### Main UI
 
+The main interface where users can add, view, and manage expenses.
 ![Main UI](images/main-ui.png)
 
 ### Expense Table (populated)
 
-![Expense Table](images/expenses-table-populated.png)
+Displays a list of recorded expenses with category, payment method, and total calculation.
+![Expenses Table Populated](images/expenses-table-populated.png)
 
 ### Filtered Expenses
 
+Shows how users can filter by category or month to view specific spending.
 ![Filtered Expenses](images/filtered-expenses.png)
 
 ---

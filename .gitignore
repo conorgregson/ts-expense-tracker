@@ -1,0 +1,19 @@
+# Build output: keep JS files for GitHub Pages, ignore maps/declarations
+build/**/*.map
+build/**/*.d.ts
+build/**/*.d.ts.map
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Editor / environment
+.vscode/
+.idea/
+.env
+
+# Optional: node (future-proof)
+node_modules/

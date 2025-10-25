@@ -1,0 +1,10 @@
+# Normalize line endings for all text files
+* text=auto eol=lf
+
+# Treat specific file types as text explicitly
+*.ts text
+*.js text
+*.html text
+*.css text
+*.json text
+*.md text

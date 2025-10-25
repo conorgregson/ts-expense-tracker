@@ -44,6 +44,7 @@ The app allows users to add, filter, and delete expense, and stores all data loc
 
 ## Project Structure
 
+```bash
 ts-expense-tracker/
 │
 ├── src/
@@ -68,6 +69,7 @@ ts-expense-tracker/
 ├── README.md
 ├── .gitignore
 └── .gitattributes
+```
 
 ---
 
@@ -82,7 +84,9 @@ cd ts-expense-tracker
 
 **Compile the TypeScript files**:
 
-`tsc -w`
+```bash
+tsc -w
+```
 
 Open `index.html` in your browser or launch with Live Server in VS Code.
 

@@ -116,7 +116,7 @@ Shows how users can filter by category or month to view specific spending.
 This mini-project helped me practice:
 
 - Creating and using TypeScript interfaces and types
-- Manipulating the DOm with strong typing and event saftey
+- Manipulating the DOM with strong typing and event saftey
 - Managing app state and persistent storage in a type-safe way
 - Structuring a small project across multiple modules (`main.ts`, `storage.ts`, `types.ts`)
 - Setting up a lightweight TypeScript build workflow

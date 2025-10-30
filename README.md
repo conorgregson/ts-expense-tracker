@@ -35,10 +35,10 @@ The app allows users to add, filter, and delete expense, and stores all data loc
 
 ## Tech Stack
 
-- TypeScript (strict mode enabled)
-- HTML5 and CSS3
-- localStorage
-- Compiled to JavaScript using `tsc -w`
+- **TypeScript** (strict mode enabled)
+- **HTML5** and **CSS3**
+- **localStorage**
+- Compiled to **JavaScript** using `tsc -w`
 
 ---
 

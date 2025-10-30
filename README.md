@@ -73,14 +73,14 @@ ts-expense-tracker/
 
 ## Getting Started
 
-1.**Clone the repository**:
+1. **Clone the repository**:
 
 ```bash
 git clone https://github.com/yourusername/ts-expense-tracker.git
 cd ts-expense-tracker
 ```
 
-2.**Compile the TypeScript files**:
+2. **Compile the TypeScript files**:
 
 ```bash
 tsc -w

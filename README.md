@@ -46,20 +46,20 @@ The app allows users to add, filter, and delete expense, and stores all data loc
 ts-expense-tracker/
 │
 ├── src/
-│ ├── main.ts
-│ ├── storage.ts
-│ └── types.ts
+│   ├── main.ts
+│   ├── storage.ts
+│   └── types.ts
 │
 ├── build/
-│ └── js/
-│ ├── main.js
-│ ├── storage.js
-│ └── types.js
+│   └── js/
+│       ├── main.js
+│       ├── storage.js
+│       └── types.js
 │
 ├── images/
-│ ├── main-ui.png
-│ ├── expenses-table-populated.png
-│ └── filtered-expenses.png
+│   ├── main-ui.png
+│   ├── expenses-table-populated.png
+│   └── filtered-expenses.png
 │
 ├── index.html
 ├── styles.css
@@ -127,7 +127,7 @@ This project was designed as a **learning exercise**, so a few features were int
 Below are potential enhancements for future versions:
 
 - **Persistent data model**:
-  - Current version uses localStroage. This mini-project could be upgraded to IndexedDB or a simple Node/Express backend for larger datasets.
+  - Current version uses `localStroage`. This mini-project could be upgraded to `IndexedDB` or a simple Node/Express backend for larger datasets.
 - **Responsive layout**:
   - The interface is currently optimized for desktop. Adding mobile-friendly styling with responsive tables or cards would imporve usability
 - **Editable rows**:

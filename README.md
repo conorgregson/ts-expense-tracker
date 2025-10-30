@@ -14,9 +14,7 @@ A mini expense tracker built with **TypeScript** to practice type safety, DOM ma
 
 ## About
 
-This **expense tracker** is a simple web application for recording and managing personal expenses.
-
-It was developed as a mini-project to strength my **TypeScript fundamentals**, focusing on strict typing, modular design, and clean DOM manipulation without frameworks.
+This **expense tracker** is a simple web application for recording and managing personal expenses. It was developed as a mini-project to strength my **TypeScript fundamentals**, focusing on strict typing, modular design, and clean DOM manipulation without frameworks.
 
 The app allows users to add, filter, and delete expense, and stores all data locally using `localStorage`.
 
@@ -75,20 +73,20 @@ ts-expense-tracker/
 
 ## Getting Started
 
-**Clone the repository**:
+1.**Clone the repository**:
 
 ```bash
 git clone https://github.com/yourusername/ts-expense-tracker.git
 cd ts-expense-tracker
 ```
 
-**Compile the TypeScript files**:
+2.**Compile the TypeScript files**:
 
 ```bash
 tsc -w
 ```
 
-Open `index.html` in your browser or launch with Live Server in VS Code.
+3. Open `index.html` in your browser or launch with Live Server in VS Code.
 
 ---
 
